@@ -2416,6 +2416,13 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101166484&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz?cache=0&sync_timestamp=1608609215811&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.0.2:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/axobject-query/download/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -4917,7 +4924,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.1"
   resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
   integrity sha1-X2m4Ezds7k/QR0o6uoNd8Eq3Y7c=
@@ -5563,6 +5570,11 @@ immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.npm.taobao.org/immer/download/immer-1.10.0.tgz?cache=0&sync_timestamp=1611143247110&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fimmer%2Fdownload%2Fimmer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha1-utZ2BbqcgQJ12R4cKkfUWC6YKG0=
+
+immutable@^4.0.0-rc.12:
+  version "4.0.0-rc.12"
+  resolved "https://registry.npm.taobao.org/immutable/download/immutable-4.0.0-rc.12.tgz#ca59a7e4c19ae8d9bf74a97bdf0f6e2f2a5d0217"
+  integrity sha1-ylmn5MGa6Nm/dKl73w9uLypdAhc=
 
 import-cwd@^2.0.0:
   version "2.1.0"
