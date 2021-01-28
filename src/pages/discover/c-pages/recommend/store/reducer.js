@@ -4,6 +4,8 @@ import {Map} from 'immutable'
 const defaultStatus = Map({
     topBanners: [],
     hotRecommends: [],
+    settleSings: [],
+    newAlbums: [],
 })
 
 export default (state = defaultStatus, action) => {
@@ -12,6 +14,10 @@ export default (state = defaultStatus, action) => {
             return state.set("topBanners", action.banners);
         case actionTypes.CHANGE_HOT_RECOMMEND:
             return state.set("hotRecommends", action.recommends);
+        case actionTypes.CHANGE_SETTLE_SINGER:
+            return state.set("settleSings", action.settleSings);
+        case actionTypes.CHANGE_NEW_ALBUM:
+            return state.set("newAlbums", action.newAlbum);
         default:
             return state
     }
